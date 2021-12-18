@@ -1,0 +1,22 @@
+{
+  "name": "who-know",
+  "version": "0.0.8",
+  "description": "Quick Translation(en <=> zh)",
+  "bin": {
+    "w": "dist/cli.js"
+  },
+  "main": "dist/main.js",
+  "file": [
+    "dist/**/*.js"
+  ],
+  "author": "Andrew Yin",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.1",
+    "@types/node": "^17.0.0"
+  }
+}
