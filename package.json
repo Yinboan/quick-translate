@@ -1,6 +1,6 @@
 {
   "name": "who-know",
-  "version": "0.0.8",
+  "version": "0.1.1",
   "description": "Quick Translation(en <=> zh)",
   "bin": {
     "w": "dist/cli.js"

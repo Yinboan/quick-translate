@@ -79,7 +79,7 @@ const translate = (word:string)=>{
             }else{
                 // console.log(obj.trans_result);
                 let res = obj.trans_result[0]
-                console.log(`🌴${res.src} => 🌵${res.dst}`);
+                console.log(`${res.src} => ${res.dst}`);
                 process.exit(0)
             }
         })
