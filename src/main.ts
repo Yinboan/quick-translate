@@ -74,7 +74,7 @@ const translate = (word:string)=>{
             let obj:queryRes = JSON.parse(data)
 
             if(obj.error_code){
-                console.error(errorMap[+obj.error_code])
+                console.error('出错了：'+errorMap[+obj.error_code])
                 process.exit(-1)
             }else{
                 // console.log(obj.trans_result);
